@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+:root {
+    --color-primaria: #49108B;
+    --color-secundaria: #7E30E1;
+    --color-terciaria: #F9E8C9;
+    --color-quaternaria: #F3F8FF; 
+
+    --font-primaria: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: var(--font-primaria);
+}
+
+/* HEADER */
+.header {
+    background-color: var(--color-primaria);
+    text-align: center;
+    padding: 2em;
+}
+
+.header__nav__lista__menu {
+    display: inline;
+    list-style-type: none;
+
+    padding: 0 1em;
+}
+
+.header__nav__lista__menu__links {
+    color: var(--color-quaternaria);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.header__nav__lista__menu__links:hover {
+    font-size: 1.1rem;
+    color: var(--color-terciaria);
+}
+
+/* SECTION-ONE */
+.container-section-one {
+    display: flex;
+    background-color: var(--color-terciaria);
+    height: 50vh;
+
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-section-one__titulo {
+    color: var(--color-primaria);
+    font-size: 3rem;
+
+    padding-bottom: 0.5em;
+}
+
+.container-section-one__texto {
+    color: var(--color-primaria);
+    font-size: 1.5rem;
+}
+
+/* SECTION-TWO */
+.container-section-two {
+    display: flex;
+    height: 50vh;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-section-two__div {
+    margin-left: 8em;
+    width: 80%;
+}
+
+.container-section-two__titulo {
+    color: var(--color-primaria);
+    font-size: 1.8rem;
+
+    padding-bottom: 0.5em;
+}
+
+.container-section-two__texto {
+    color: var(--color-primaria);
+    font-size: 1.5rem;
+}
+
+.container-section-two__imagem {
+    margin-right: 8em;
+    width: 20%;
+}
+
+/* SECTION-TWO SOBRE */
+.container-section-two__sobre__titulo {
+    color: var(--color-primaria);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.container-section-two__sobre__texto {
+    color: var(--color-primaria);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 5em;
+}
+
+/* SECTION-TWO PRODUTOS */
+.container-section-two__produtos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-section-two__title {
+    color: var(--color-primaria);
+    font-size: 2.5rem;
+    margin: 1em;
+}
+
+.container-section-two__categorias {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+    margin-bottom: 2em;
+}
+
+.container-section-two__categorias__links {
+    color: var(--color-primaria);
+
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.container-section-two__categorias__links__img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.container-section-two__categorias__links__texto {
+    padding-top: 0.5em;
+}
+
+/* SECTION-TWO CONTATO */
+.container-section-two-contact {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.container-section-two-contact__title {
+    font-size: 2rem;
+    margin-bottom: 1em;
+
+    color: var(--color-primaria);
+}
+
+.container-section-two-contact__text {
+    font-size: 1.2rem;
+    color: var(--color-primaria);
+    margin-bottom: 0.8em;
+}
+
+.container-section-two-contact__text__links {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.container-section-two-contact__text__links:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    background-color: var(--color-primaria);
+    color: var(--color-quaternaria);
+
+    height: 20vh;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-style: italic;
+}
+
+.footer__titulo {
+    font-size: 1.6rem;
+    margin-bottom: 1em;
+}
+
+.footer__texto__link {
+    text-decoration: none;
+    color: var(--color-quaternaria);
+
+    font-weight: 700;
+}
+
+.footer__texto__link:hover {
+    text-decoration: underline;
+    font-size: 1.1rem;
+    color: var(--color-terciaria);
+}
