@@ -1,7 +1,113 @@
 @charset "UTF-8";
 
-/* CELULAR */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 433px) {
+
+    /* HEADER */
+    .header__nav__lista__menu {
+        padding: 0 .5em;
+    }
+
+    /* SECTION-ONE */
+    .container-section-one {
+        height: 30vh;
+    }
+
+    .container-section-one__titulo {
+        font-size: 2.5rem;
+        margin: 0 1em;
+    }
+
+    .container-section-one__texto {
+        font-size: 1.3rem;
+        margin: 0 1em;
+    }
+
+    /* SECTION-TWO */
+    #section-two-index {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container-section-two__div {
+        margin: 1em;
+    }
+
+    .container-section-two__titulo {
+        margin-top: 1em;
+        font-size: 1.3rem;
+    }
+
+    .container-section-two__texto {
+        margin: .5em .5em 0 .5em;
+        font-size: 1.1rem;
+    }
+
+    .container-section-two__imagem {
+        margin: 0;
+        margin-bottom: 2em;
+        width: 40%;
+    }
+
+    /* SECTION-TWO SOBRE */
+
+    .container-section-two__sobre {
+        margin: 1em;
+    }
+
+    .container-section-two__sobre__titulo {
+        font-size: 1.3rem;
+        margin: 0;
+        margin-bottom: 0.5em;
+    }
+
+    .container-section-two__sobre__texto {
+        font-size: 1rem;
+        margin: 0;
+        margin-bottom: 0.5em;
+    }
+
+    /* SECTION-TWO PRODUTOS */
+    #section-two-produtos {
+        height: 100vh;
+    }
+
+    .container-section-two__produtos {
+        margin: 1em;
+    }
+
+    .container-section-two__title {
+        margin-top: 1em;
+        font-size: 2rem;
+    }
+
+    .container-section-two__categorias {
+        flex-direction: column;
+        margin: 1em;
+        margin-top: 0;
+    }
+
+    .container-section-two__categorias__links {
+        margin: .5em;
+        font-size: 1rem;
+    }
+
+    .container-section-two__categorias__links__img {
+        width: 20%;
+    }
+
+    /* SECTION-TWO CONTATO */
+    .container-section-two-contact__title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 433px) and (max-width: 768px) {
+
+    /* HEADER */
+    .header__nav__lista__menu {
+        padding: 0 .5em;
+    }
 
     /* SECTION-ONE */
     .container-section-one {
@@ -9,8 +115,14 @@
     }
 
     /* SECTION-TWO */
+    #section-two-index {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
     .container-section-two__div {
-        margin-left: 4em;
+        margin: 2em 2em 0 2em;
     }
 
     .container-section-two__titulo {
@@ -18,45 +130,102 @@
     }
 
     .container-section-two__texto {
-        font-size: 1.2rem;
+        margin: .5em .5em 0 .5em;
+        font-size: 1.3rem;
     }
 
     .container-section-two__imagem {
-        margin-right: 4em;
+        margin: 0;
+        margin-bottom: 1em;
         width: 25%;
     }
 
     /* SECTION-TWO SOBRE */
+    .container-section-two__sobre {
+        margin: 1em;
+    }
+
     .container-section-two__sobre__titulo {
-        font-size: 1.5rem;
-        margin-top: 1em;
+        font-size: 2rem;
+        margin: 0;
+        margin-bottom: 0.5em;
     }
 
     .container-section-two__sobre__texto {
         font-size: 1.2rem;
-        margin: 2em;
+        margin: 0.5em;
     }
 
     /* SECTION-TWO PRODUTOS */
+    #section-two-produtos {
+        height: 100vh;
+    }
+
+    .container-section-two__produtos {
+        margin: 10%;
+    }
+
     .container-section-two__title {
+        margin-top: 1em;
         font-size: 2rem;
     }
 
     .container-section-two__categorias {
-        flex-direction: row;
-        align-items: center;    
+        flex-direction: column;
+        margin: 1em;
+        margin-top: 0;
     }
 
     .container-section-two__categorias__links {
+        margin: .5em;
         font-size: 1rem;
     }
 
     .container-section-two__categorias__links__img {
-        width: 40%;
+        width: 12%;
     }
 
+
+
+
+
+    /*
+    #section-two-produtos {
+        display: flex;
+        flex-direction: column;
+
+        height: 100vh;
+        width: 60%;
+        margin: 2em;
+    }
+
+    .container-section-two__produtos {
+        margin: 1em;
+    }
+
+    .container-section-two__title {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .container-section-two__categorias {
+        flex-direction: column;
+        margin: 0;
+        margin-top: 0;
+    }
+
+    .container-section-two__categorias__links {
+        margin: 0;
+        font-size: 1.3rem;
+    }
+
+    .container-section-two__categorias__links__img {
+        width: 15%;
+    }
+/*
     /* SECTION-TWO CONTATO */
     .container-section-two-contact__title {
         font-size: 1.5rem;
     }
+
 }
